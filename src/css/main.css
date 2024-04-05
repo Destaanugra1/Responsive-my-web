@@ -1,0 +1,70 @@
+* {
+    font-family: "poppins", sans-serif;
+}
+
+.hero {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url('../assets/img/hero/hero.jpg');    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+}
+
+
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar {
+    padding: 10px 0 10px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar.color-active{
+    background-color: #212529;
+    transform: scaleY(1);
+}
+
+.gallery img {
+    height: 220px;
+}
+
+@media screen and (max-width: 992px) {
+    .service {
+        padding-top: 100px;
+    }
+}
+
+.faq .accordion {
+    --bs-accordion-bg: #f1faee;
+}
+
+.faq .accordion-buttom:focus{
+    box-shadow: none;
+}
+
+.faq .accordion .accordion-item .accordion-header {
+    line-height: 2;
+}
+
+.footer {
+    background-color: #212529;
+    /* background-color: white; */
+}
+
+.faq {
+    margin: 10vh;
+}
+
+.footer .row:nth-child(2) {
+    padding-top: 50px;
+}
+
+.hero .p{
+    --animate-delay: 0.5s;
+}
